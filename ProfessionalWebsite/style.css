@@ -1,0 +1,185 @@
+.body {
+    font-family: 'Roboto Mono', monospace;
+    background: #95b6d8;
+}
+.header {
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    text-align: left;
+    background: #323e2a;
+    color: white;
+    font-size: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.aboutme {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 500px;
+    /* border: solid black 2px; */
+    margin: auto;
+    margin-bottom: 7%;
+    margin-top: 7%;
+
+}
+
+.aboutmetext {
+    width: 50%;
+    height: 500px;
+    float: left;
+    /* border: solid black 2px; */
+}
+
+.aboutme h2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.aboutme p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.aboutmepic {
+    margin-left: 50%;
+    height: 500px;
+    /* border: solid black 2px; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.background {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 600px;
+    /* border: solid black 2px; */
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+.background h2 {
+    text-align: center;
+}
+  
+.education {
+    /* border: solid black 2px; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* background: grey; */
+}
+
+.education h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.education h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.education p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 12px;
+}
+
+.skills {
+    /* border: solid black 2px; */
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.skills p {
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    /* border: solid black 2px; */
+  }
+
+.container > div {
+    flex: 1; /*grow*/
+}
+
+.outerdiv {
+    background: #323e2a;
+    color: white;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.projects {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 600px;
+    /* border: solid black 2px; */
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+.projects h2 {
+    text-align: center;
+
+}
+
+.outerdivproject {
+    background: #323e2a;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.individualproject {
+    /* background: #db7d05; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+} 
+
+.individualproject h3 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.individualproject p {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contact {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 150px;
+    /* border: solid black 2px; */
+    margin: auto;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+}
