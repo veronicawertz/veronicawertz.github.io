@@ -69,13 +69,11 @@ h2 {
 }
 
 .aboutme h2{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
 }
 
 .aboutme p {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
 }
 
 .aboutmepic {
@@ -127,7 +125,7 @@ h2 {
 .allprojects{ 
     height: 1300px;
     background: #323e2a;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
@@ -153,7 +151,7 @@ h2 {
     height: 300px;
     float:right;
     width: 35%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .projectpic img {
