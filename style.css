@@ -125,7 +125,7 @@ h2 {
 }
 
 .allprojects{ 
-    height: 1200px;
+    height: 1300px;
     background: #323e2a;
     width: 80%;
     margin-left: auto;
@@ -152,6 +152,7 @@ h2 {
     height: 300px;
     float:right;
     width: 35%;
+    margin-top: 40px;
 }
 
 .projectpic img {
@@ -173,7 +174,8 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
+    margin-top: 50px;
 }
 
 .contact {
