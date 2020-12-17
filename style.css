@@ -282,6 +282,31 @@ header ul li a.active {
         width: 50%;
         margin-bottom: 100px;
     }
+
+    @media only screen and (max-width: 500px) {
+        header .title {
+            font-size: 15px;
+        }
+
+        .aboutmepic {
+            height: 100%;
+            width: 100%;
+            margin-bottom: 30%; 
+        }
+
+        .aboutme img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: 50%;
+        }
+
+        .leadership {
+            height: 1500px;
+        }
+
+    }
 }
 
 
