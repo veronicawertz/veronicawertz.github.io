@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+            <script src="https://kit.fontawesome.com/1de58f998c.js" crossorigin="anonymous"></script>
+    
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    </head>
+    <body>
+    
+        <header>
+            <div class="title">
+                <h1>Veronica Wertz </h1>
+            </div>
+            <i class="fas fa-bars menu" id="dropdown-button"></i>
+            <ul id="dropdown">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a class="active" href="projects.html">Projects</a> </li>
+                <li> <a href="leadership.html">Leadership</a> </li>
+                <li> <a href="Resume.pdf" target="_blank">Resume</a> </li>
+            </ul>					  
+        </header>
+
+        <h2> Projects </h2>
+        <div class="allprojects">                
+                <div class="project2">
+                    <div class="projecttext2">
+                        <h3> Subreddit Recommender </h3>
+                        <p> 
+                            In this project, I worked in a team to create a Subreddit Recommender web application. 
+                            Reddit has a very large number of subreddits, so it can be overwhelming to be a new Reddit user. 
+                            Our goal with this app was to help people who are unfamiliar with Reddit find where they should post a post. 
+                            This app took a potential Reddit post and title as input. 
+                            As the output, it recommended subreddits that the post would belong in. 
+                            We created basic recommendations, using cosine similarity on the input posts and sample posts from many different subreddits. 
+                            We used lemmatization and sentiment analysis to improve the results in our final version of the application. 
+                            In this project, my main roles were to use Python, Flask, and HTML/CSS to implement cosine similarity between posts and develop the user interface. 
+                            Below is an image of the Subreddit Recommender UI with sample input and our final results. 
+                        </p>
+                        <img class="subreddit" src="reddit1.png" alt="Reddit Page 1"/>
+                    </div>
+                </div>
+
+                <div class="outerdivproject">
+                    <div class="individualproject">
+                        <h3> Spectrum | Pipeline UI </h3>
+                        <p> While working at Spectrum, I created a user interface for my team. 
+                            My team was working on a CI/CD pipeline and wanted the pipeline to have it's own UI. 
+                            I  had the opportunity to design and implement the UI on my own, which allowed me to practice both my design skills and technical skills. 
+                            The UI I created allowed the user to run the whole pipeline, or any individual job in the pipeline. 
+                            The user was also able to view currently building tasks and previously built tasks as well. 
+                            I included a loading page for the user to see which task was running, and a results page for the user to see the outcome of the task. 
+                            I learned many new things about Flask, especially using requests when running jobs and retrieving results. 
+                            Using HTML/CSS and Flask, I was able to develop a more aesthetically pleasing platform for my team to run their pipeline on. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project"> 
+                    <div class="projecttext">
+                        <h3> Cornell Pole Posse Website </h3>
+                        <p> 
+                            I created a website for my dance group, Cornell Pole Posse.
+                            The club never had a website before, as it is a fairly small and newly revived club at Cornell. 
+                            This project started as a class project, but ended up being a passion project I worked on outside of class. 
+                            This website was the first website I created on my own. 
+                            I used HTML/CSS and PHP to create this website.  
+                            It includes general information about the club, information about practices, and a calendar of the club's events. 
+                        </p>
+                    </div>
+                    <div class="projectpic">
+                            <img class="center" src="pole.png" alt="Pole Posse"/>
+                    </div>
+                </div>
+                
+
+
+
+
+
+        </div>
+
+        <div class="contact">
+            <p> <a href="https://www.linkedin.com/in/veronicawertz/"> LinkedIn</a> &#8226; veronica@wertz.com </p>
+        </div>
+
+        <script>
+            document.getElementById("dropdown-button").onclick = function() {showMenu()};
+    
+            function showMenu() {
+                document.getElementById("dropdown").classList.toggle("show");
+            }
+        </script>
+	</body>
+</html>

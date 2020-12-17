@@ -1,23 +1,30 @@
 <!doctype html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<script src="https://kit.fontawesome.com/1de58f998c.js" crossorigin="anonymous"></script>
+
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 	</head>
 	<body>
 
-		<div class="header">
+		<header>
 			<div class="title">
 				<h1>Veronica Wertz </h1>
 			</div>
-			<div class="nav">
-				<a class="active" href="index.html">Home</a>
-				<a href="education.html">Education</a>
-				<a href="professional.html">Professional Experience</a>
-				<a href="leadership.html">Leadership</a>
-			</div>					  
-		</div>
+			<i class="fas fa-bars menu" id="dropdown-button"></i>
+			<ul id="dropdown">
+				<li> <a class="active" href="index.html">Home</a> </li>
+				<li> <a href="projects.html">Projects</a> </li>
+				<li> <a href="leadership.html">Leadership</a> </li>
+				<li> <a href="Resume.pdf" target="_blank">Resume</a> </li>
+			</ul>					  
+		</header>
 
 		<div class="aboutme"> 
 			<div class="aboutmetext">
@@ -31,7 +38,7 @@
 					Working on this project helped me refine my web development skills and solidify my passion for web development.
 				</p>
 				<p> 
-					In addition to my technical skills, I have had the opportunity to develop my leadership skills as the Treasurer and Internal Communications Officer of one of Cornell's dance clubs. 
+					In addition to my technical skills, I have had the opportunity to develop my <a href="leadership.html" style="color: #506343">leadership</a> skills as the Treasurer and Internal Communications Officer of one of Cornell's dance clubs. 
 				</p>
 			</div>
 			<div class="aboutmepic">
@@ -40,7 +47,15 @@
 		</div>
 		<br>
 		<div class="contact">
-			<p> <a href="https://www.linkedin.com/in/veronicawertz/"> LinkedIn </a> &#8226; veronica@wertz.com </p>
+			<p> <a href="https://www.linkedin.com/in/veronicawertz/"> LinkedIn</a> &#8226; veronica@wertz.com </p>
 		</div>
+
+		<script>
+			document.getElementById("dropdown-button").onclick = function() {showMenu()};
+
+			function showMenu() {
+				document.getElementById("dropdown").classList.toggle("show");
+			}
+		</script>
 	</body>
 </html>
